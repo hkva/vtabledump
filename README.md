@@ -1,10 +1,10 @@
 ## vtabledump - Efficiently dump C++ virtual function tables from ELF objects
 
 ## Building
-1. Install a C++17 compiler and the [Meson build system](https://mesonbuild.com/)
+1. Install a C++17 compiler and the [CMake](https://cmake.org/)
 2. Open the project folder from a terminal
-3. Run `meson setup build` to generate build files
-4. Run `meson compile -C build` to compile
+3. Run `cmake -DCMAKE_BUILD_TYPE=Release -B build` to generate build files
+4. Run `cmake --build build` to compile
 
 ## Usage
 ```
